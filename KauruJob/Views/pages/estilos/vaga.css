@@ -1,0 +1,114 @@
+.container-vaga h4{ /* Texto Cadastro Vagas*/
+	font-size: 25px;
+	color:#454545;
+}
+
+.vaga{
+	width:100%;
+}
+
+.container-vaga-wraper{
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+	margin:40px 0;
+}
+
+.container-vaga-single{
+	width:32%;
+	margin-bottom: 10px;
+	margin-right: 1%;
+	background-color: white;
+	display: flex;
+	
+	
+
+}
+
+.container-vaga-single .info-vaga-user-single{ 
+	width:80%;
+	padding:20px;
+
+}
+
+.info-vaga-user-single h2{
+	font-weight: bold;
+	font-size: 15px;
+	color:#454545;
+}
+.info-vaga-user-single h3{
+	font-weight: bold;
+	font-size: 20px;
+	color:#454545;
+}
+.info-vaga-user-single p{
+	font-size: 15px;
+	color:#454545;
+	opacity: 0.4;
+	margin:10px 0;
+}
+
+.container-vaga-single .form-vaga{ 
+	width:80%;
+	padding:20px;
+
+}
+.form-vaga {
+    width: 100%;
+    padding: 20px;
+
+}
+.form-vaga h2{
+	font-weight: bold;
+	font-size: 15px;
+	color:#454545;
+	margin-bottom: 10px; 
+
+}
+.form-vaga h3{
+	font-weight: bold;
+	font-size: 20px;
+	color:#454545;
+	margin-bottom: 10px; 
+
+}
+.form-vaga p{
+	font-size: 15px;
+	color:#454545;
+	opacity: 0.4;
+	margin:10px 0;
+	margin-bottom: 10px; 
+}
+
+.form-vaga input,
+.form-vaga textarea {
+
+    width: calc(100% - 5px); /* Leva em consideração o padding do form-vaga */
+    padding: 8px;
+    margin-bottom: 10px;
+    resize: none; /* Impede o redimensionamento da textarea */
+    border: 2px solid rgba(69, 69, 69, 0.2); /* Cor da borda com opacidade */
+
+}
+.form-vaga textarea {
+    height: 100px; /* Ajuste a altura conforme necessário */
+
+
+
+}
+
+.form-vaga button {
+    margin-top: 10px;
+
+    background-color: white;
+    
+    width: 50%; /* Ajuste a largura conforme necessário */
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    
+}
+
+
